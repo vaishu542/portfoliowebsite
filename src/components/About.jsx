@@ -20,7 +20,7 @@ const About = () => {
           <div className="connect gap-3 flex items-center justify-center text-2xl text-gray-50">
             <a href="#contact">
             <span>Let's connect </span>
-            <i class='bx bx-right-arrow-circle'></i>
+            <i className='bx bx-right-arrow-circle'></i>
             </a>
           </div>
           
