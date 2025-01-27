@@ -3,7 +3,7 @@
 
 Welcome to my **Personal Portfolio Website**! 🎉 This site is designed to showcase my skills, projects, and passion for frontend development. Explore my journey, view my latest work, and get to know me better!
 
-🌐 **Live Demo**: [Visit My Portfolio](https://portfolio-s2004.netlify.app)
+🌐 **Live Demo**: [Visit My Portfolio](https://porfolio-d959bb.netlify.app/)
 
 ---
 
