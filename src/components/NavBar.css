@@ -1,0 +1,66 @@
+
+/* NavBar.css */
+#mobile-menu {
+  max-height: 0;
+  overflow: hidden;
+  visibility: visible;
+}
+/* From Uiverse.io by joe-watson-sbf */ 
+.btn {
+  font-size: 17px;
+  background: transparent;
+  border: none;
+  padding: .3em 1em;
+  color: #ffedd3;
+  position: relative;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #f8f7f2;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  transition-delay: 0.5s;
+}
+
+.btn:hover::before {
+  width: 100%;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  transition: 0.4s ease;
+  z-index: -1;
+}
+
+.btn:hover::after {
+  height: 100%;
+  transition-delay: 0.4s;
+  color: aliceblue;
+}
+
+#mobile-menu.max-h-screen {
+  max-height: 100vh; 
+}
+
+.btn:active{
+  border-bottom: 2px solid aliceblue;
+}
+
+*{
+  scroll-behavior: smooth;
+}

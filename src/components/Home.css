@@ -1,0 +1,16 @@
+
+@media (min-width: 768px) {
+    .imgBox{
+        border: 5px solid #585757;
+        border-radius: 19% 81% 54% 46% / 61% 66% 34% 39%;
+        padding: 20px;
+    }
+}
+.mobile{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 20%;
+    margin-top: 30px;
+}
